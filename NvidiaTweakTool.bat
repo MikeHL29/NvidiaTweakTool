@@ -5,6 +5,19 @@ title NvidiaTweakTool
 chcp 65000
 color a
 cls
+cls
+>NUL 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system" || (
+    echo.
+    echo Error
+    echo Please run as administrator
+    echo.
+    echo press any key to close
+    pause >NUL
+    exit /B
+)
+
+echo Running with administrator permissions.
+
 goto startmenu
 
 :startmenu
@@ -15,7 +28,7 @@ cls
 echo.
 echo.
 echo.                                            NvidiaTweakTool
-echo.                                            Wellcome: %username%
+echo.                                          
 echo.                                  ===================================
 echo.
 echo.
@@ -311,4 +324,3 @@ timeout /t 1 /nobreak > nul
 Echo.1
 timeout /t 1 /nobreak > nul
 goto startmenu
-
