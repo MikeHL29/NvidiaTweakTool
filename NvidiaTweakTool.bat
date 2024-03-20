@@ -243,11 +243,11 @@ goto startmenu
 :disautimeout
 cls
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e96c-e325-11ce-bfc1-08002be10318}\0000\PowerSettings" /v "ConservationIdleTime" /t REG_BINARY /d 00000000
-yes
+
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e96c-e325-11ce-bfc1-08002be10318}\0000\PowerSettings" /v "IdlePowerState" /t REG_BINARY /d 00000000
-yes
+
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e96c-e325-11ce-bfc1-08002be10318}\0000\PowerSettings" /v "PerformanceIdleTime" /t REG_BINARY /d 00000000
-yes
+
 cls
 echo.
 Echo.2
