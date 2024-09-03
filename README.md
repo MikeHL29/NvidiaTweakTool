@@ -5,7 +5,7 @@ Optimize your Nvidia graphics card with a simple batch tool
 
 Support Me: https://www.youtube.com/@MikeHL85
 
-Support these guys too
+Support this guys too
 
 luke-beep(honectrl.bat): https://github.com/luke-beep
 
