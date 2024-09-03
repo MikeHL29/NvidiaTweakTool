@@ -9,6 +9,3 @@ Support these guys too
 
 luke-beep(honectrl.bat): https://github.com/luke-beep
 
-YuraYura (WDLF Osteup): https://www.youtube.com/@osteup
-
-YuraYura's Website: https://osteup.com/
